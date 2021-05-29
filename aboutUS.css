@@ -1,0 +1,227 @@
+
+body{
+    background-color: #f5f5f5;
+}
+.bodyContainer{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    max-width: 1024px; 
+    height: 100vh;
+    padding: 0px;
+    margin: 0 auto;
+    background-image: url("images/background-all.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bodyWrap{
+    min-height: 670px;
+    height: 100vh;
+    color: #212837;
+    padding: 25px;
+    width: 100%;
+    max-width: 1024px;   
+}
+.flex1{
+    width: 100%;
+}
+.flex1 h1{
+    margin-top: 10px;
+    line-height: 0.6em;
+    font-size: 6rem;
+    color:  #212837b2;
+}
+.flex1 h1 span{
+    color:  #ffb3009c;
+}
+.accordion{
+    width: 100%;
+    margin-top: 38px;
+}
+.card{
+    background-color: #21283700;
+}
+.card-header{
+    color: #212837;
+    background-color: #2128378c;
+}
+.card-body{
+    background-color:  #ffe9b6c0;
+    border: 2px solid #212837;
+}
+.btn{
+    color: #313b52;
+    font-size: 1.2rem;
+    background: linear-gradient(.75turn, #ffb300, #ffd061);
+    text-decoration: none;
+}
+.btn:hover{
+    color: white;
+    background: linear-gradient(.25turn, #149767, #43e9ac);
+    text-decoration: none;
+}
+
+.you{
+    color: #FEB40A;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #212837;
+}
+.address{
+    padding: 10px 0px 0px 10px;
+    display: inline-block;
+    align-self: end;
+    color:#212837;
+    display: flex;
+    justify-content: space-between;
+    background: #ffe9b6c0;
+}
+.addressText{ 
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+}
+.addressText span{ 
+    text-decoration: underline;
+}
+.addressIcon{
+    display: grid;
+    font-size: 4rem;
+    margin-right: 35px;
+    align-content: center;
+   
+}
+.addressIcon i{
+    display: block;
+    margin-bottom: 10px;
+}
+.instMess{
+    background-color: #2128378c;
+    padding: 25px;
+    margin-top: 25px;
+}
+.instMess p{
+    color:  #ffb300;
+}
+.instMess h5{
+    color:  #ffb300;
+    font-size: 1.5em;
+}
+.instMess i{
+    color: #313b52;
+    font-size: 2em;
+}
+.ski{
+    font-size: .6em;
+    margin-left: 15px;
+}
+.input-group-text{
+    background: linear-gradient(.75turn, #ffc132, #ffd061);
+    color: #313b52;
+}
+.instMessSub{
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+}
+.instMessSub input{
+    background: linear-gradient(#ffb300, #ffd061);
+    color: #313b52;
+}
+.instMessSub input:hover{
+    
+    background: linear-gradient( #149767, #43e9ac);
+    color: white;
+}
+.instMessSub input:enabled{
+    outline: none;
+}
+.flex2{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+row-gap: 27px;
+height: 1000px;
+}
+.mBt{
+    margin-bottom: 100%;
+}
+.flex2 h3{
+    margin-top: 28px;
+    margin-bottom: 0px;
+    font-size: 1.5em;
+    color:  #212837bd;
+    font-weight: 600;
+}
+.flex2 p{
+    background: #feb50a46;
+    border: 2px solid #212837;
+    color: #212837;
+    font-weight: 500;
+    padding: 10px;
+}
+.flex2 span{
+    color: white;
+    font-style: italic;
+    font-size: 1.2em;
+}
+.flex2 u{
+    float: right;
+}
+.flex2 q{
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+}
+.footer {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 240, 0);
+    justify-self: center;
+    align-self:  end;
+    margin-top: -100px;
+ }
+ @media only screen and (max-width:400px){
+    .btn{
+        font-size: 0.8rem;
+    }
+    .card-body{
+        font-size: 0.7rem;
+    }
+ }
+ @media only screen and (max-width:767px){
+
+    .addressText{ 
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 1em;
+    }
+    .addressText span{ 
+        display: inline-block;
+        text-decoration: underline;
+
+    }
+    .addressIcon{
+        display: grid;
+        align-self: center;
+        font-size: 3rem;
+        margin-right: 30px;
+        margin-bottom: 5px;
+    }
+    .flex1 h1{
+        text-align: center;
+        font-size: 4rem;
+    }
+ }
+ @media only screen and (max-width:992px){
+ .flex2{
+    height: auto;
+    }
+.mBt{
+    margin-bottom: 0;
+    }
+.footer {
+    margin-top: 75px;
+}
+}

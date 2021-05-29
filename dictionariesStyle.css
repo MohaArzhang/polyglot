@@ -1,0 +1,304 @@
+
+body{
+    font-family: 'Roboto' ,Helvetica, Arial,sans-serif;
+  
+
+}
+.container {
+    width: 1024px;
+}
+
+
+
+
+/* NEW NAV */
+.profile{
+    position: relative;
+    left: 3.7rem;
+   
+   }
+   .logo{
+       width: 12.5rem;
+       margin-right: 1.7rem;
+   }
+   .bg-color{
+   background-color: #212837;
+   }
+   
+   .nav-item a{
+       color: #FEB40A !important;
+   }
+   .dropdown-menu .subProfile{
+       color:  #212837 !important;
+   }
+
+
+/* SECTION */
+
+   .section{
+       
+    /* height: 100%; */
+    
+    /* padding: 12rem 5rem; */
+  background-image: url(images/background-all.jpg);
+  background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  
+}
+
+.section h3{
+text-align: center;
+padding: 2.5rem 0;
+}
+.searchBarWrapper{
+display: grid;
+place-content: center;
+  
+}
+
+.bluePart{
+    background-color: #318BAC;
+    width: 45rem;
+}
+.bluePartTop{
+    display: flex;
+    margin: 1rem 2rem 0.1rem 2rem;
+}
+.fa-globe{
+color: white;
+font-size: 2.2rem;
+}
+
+.bluePart input{
+  width: 35rem;
+  outline: none;
+  background-color:#318BAC ;
+  border: none;
+  border-bottom: solid 1px white;
+  margin: 0 1rem 0.5rem ;
+
+}
+.searchIcon{
+    border: solid 2px #FEB40A;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 100%;
+    display: grid;
+    place-content: center;
+    background-color: #318BAC;
+    outline: none !important;
+}
+.searchIcon a:active{
+    text-decoration: none;
+    border: solid 2px white;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 100%;
+    display: grid;
+    place-content: center;
+    background-color: #318BAC;
+    outline: none !important;
+}
+.searchIcon i{
+   transform: scaleX(-1);
+   color:  #FEB40A;
+   font-size: 1.3rem;
+   text-align: center;
+   padding: 0.4rem;
+
+}
+.searchIcon i:active{
+   transform: scaleX(-1);
+   color:  white;
+   font-size: 1.3rem;
+   text-align: center;
+   padding: 0.4rem;
+
+}
+.pickYourDic{
+    outline: none !important;
+    background-color:#318BAC ;
+    border: none;
+    color: white; 
+    font-size: 0.8rem;
+    font-weight: lighter;
+    margin:  0  0 0.3rem  2rem;
+}
+.grayPart{
+    background-color:#C4C4C4 ;
+    width: 45rem;
+    height: 1.4rem;
+}
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+}
+.fa-share{
+font-size: 4rem;
+transform: scale(-1);
+color: #149767;
+transform: rotate(145deg);
+position: relative;
+right: 3rem;
+bottom: 1rem;
+}
+.definitionBackground{
+display: flex;
+justify-content: center;
+}
+
+.definitionBox{
+    /* display: grid;
+    justify-content: center; */
+    background-color:#C4C4C4 ;
+    width: 55rem;
+    height: 20rem; 
+    margin-top: .3rem;
+   
+}
+.definitionBoxWrapper{
+    display: flex;
+    justify-content: center;
+    margin: 2.2rem 0;
+   
+}
+
+.definition{
+    display: inline;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 0.8rem;
+    margin: 0;
+}
+.definitionInput{
+    /* margin: 3rem 12rem 2rem 12rem; */
+    width: 30rem;
+    padding: 0.8rem;
+    border: none;
+    display: inline;
+    margin: 0;
+    outline: none;
+}
+
+.definitionBox p{
+    color: white;
+}
+.hr{
+   background-color: white;
+   width: 30rem;
+   margin: 2rem 12rem 1rem 12rem;
+}
+
+
+
+
+
+
+/* * MEDIA QUERY */ 
+
+@media only screen and (max-width: 991px){
+
+    .searchBarWrapper{
+      
+        width: 30rem;
+       padding: 0;
+       margin: auto;
+    }  
+    .searchBarWrapper input{
+      
+      width: 25rem;
+    
+     margin: 0;
+    } 
+    .searchBarWrapper .bluePartTop{
+      
+      width: 30rem;
+    
+     
+    } 
+    .searchBarWrapper .bluePart,  .searchBarWrapper .grayPart{
+      
+      width: 35rem;
+    
+    
+    } 
+    .fas.fa-share{
+      font-size: 2.7rem;
+    }
+    .definition{
+      width: 5rem;
+      padding: 0;
+    }
+    .definitionInput{
+      width: 8rem;
+      padding: 0;
+      color: gray;
+    }
+    .definitionBox{
+      width: 40rem!important;
+      margin: auto;
+    }
+    hr{
+      width: 18rem!important;
+    
+    }
+    
+    } 
+
+@media only screen and (max-width: 767px){
+    .searchBarWrapper{
+        width: 30rem;
+    }
+    .bluePartTop{
+       width: 20rem;
+      
+      }
+    .bluePartTop #input{
+        width: auto;
+       
+      }
+
+      .bluePart{
+        width:20rem !important;
+      
+      }
+      .grayPart{
+        width:20rem !important;
+        
+      }
+
+
+
+
+.definition{
+    width: 5rem!important;
+    padding: 0;
+    font-size: .9rem;
+}
+.definitionInput{
+    width: 15rem!important;
+    padding: 0;
+    color: gray;
+}
+.definitionBox{
+    width: 23rem!important;
+    margin: auto;
+}
+.hr{
+    width: 14rem!important;
+    margin:  2rem auto!important;
+
+}
+
+}
+@media only screen and (min-width: 500px){
+ .container{
+     width: auto;
+ }
+}
+
+
+
+

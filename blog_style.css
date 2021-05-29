@@ -1,0 +1,218 @@
+
+body{
+    font-family: 'Roboto' ,Helvetica, Arial,sans-serif;
+
+}
+.container {
+    width: 1024px;
+}
+
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 575px){
+    .container{
+       width: auto;
+    }
+    .slogan h1, .slogan span{
+        font-size:2rem !important;
+     
+    }
+    .slogan
+    {
+        width: 70%;
+       
+        margin-left: 4.8rem !important;
+    }
+    .leftCard, .middleCard, .rightCard{
+       
+        width: 60%;
+        margin-bottom: 1.3rem;
+    }
+   
+
+
+}
+@media only screen and (max-width: 767px){
+
+.container{
+    width: auto;
+ }
+ .slogan h1, .slogan span{
+     font-size:2rem !important;
+  
+ }
+ .slogan
+ {
+     width: 70%;
+    
+     margin-left: 5.1rem !important;
+ }
+ .leftCard, .middleCard, .rightCard{
+    margin-bottom: 1.3rem;
+     width: 60%;
+ }
+
+}
+@media only screen and (max-width: 992px){
+
+    .leftCard, .middleCard, .rightCard{
+       margin: 1rem ;
+    }
+    .rightCard{
+        background-color:#F5F5F5 !important;
+    }
+
+
+} 
+
+
+
+
+/* .mainContainer{
+    width: 1024px;
+    height: 100vh;
+    margin: 0 auto;
+   
+} */
+/* .currentPage {
+border-bottom: solid 2px #FEB40A;
+padding-bottom: 0.4rem;
+}
+
+/* NEW NAV */
+
+
+.profile{
+    position: relative;
+    left: 3.7rem;
+   
+   }
+   .logo{
+       width: 12.5rem;
+       margin-right: 1.7rem;
+   }
+   .bg-color{
+   background-color: #212837;
+   }
+   
+   .nav-item a{
+       color: #FEB40A !important;
+   }
+   .dropdown-menu .subProfile{
+       color:  #212837 !important;
+   }
+
+
+/* SECTION */
+
+   .section{
+    /* height: 100vh; */
+    
+    /* padding: 12rem 5rem; */
+    background-image: url(images/background-all.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  
+}
+.slogan h1{
+    text-align: center;
+  padding: 6rem 0 3rem 0;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+.slogan span{
+   font-family: 'Roboto', sans-serif; 
+  padding: 6rem 0;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #149767;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+/* .cards{
+display: flex;
+justify-content: space-around;
+} */
+.leftCard, .middleCard, .rightCard{
+    /* width: 16rem; */
+    height: 21rem;
+    background-color: white;
+    border-top: solid 5px #FEB40A;
+    margin-left: 1.8rem;
+    /* box-shadow: -22px 15px  #C4C4C4; */
+    padding: 0;
+    filter: drop-shadow(0.2rem 0.2rem 0.3rem gray);
+
+}
+/* .middleCard{
+    margin-top: 2rem;
+} */
+
+.leftCard svg, .middleCard svg, .rightCard svg{
+    width: 100%;
+    
+   
+}
+.leftCard .topic, .middleCard .topic, .rightCard .topic{
+    color: red;
+    /* position: relative;
+    bottom: 3.3rem;
+    left: 1rem; */
+    font-weight: bold;
+    
+   
+}
+.leftCard p , .middleCard p, .rightCard p {
+    padding: 0 1rem;
+    text-justify: auto;
+    font-weight: lighter;
+    
+    
+   
+}
+.leftCard  .firstWord, .middleCard  .firstWord, .rightCard .firstWord{
+    font-weight: bolder;
+    font-size: 1.1rem;
+    
+}
+.cardBottom{
+display: flex;
+}
+.circle{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 100%;
+    margin: 0 0.6rem 0 1rem;
+}
+.writer{
+    color: #6e6c6c;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding-top: 0.4rem;
+}
+.yellowSquare{
+    text-decoration: none;
+    width: 1.9rem;
+    height: 2.2rem;
+    border: solid 2px  #FEB40A;
+    float: right;
+    position: relative;
+   right: 1.4rem;
+   bottom: 0.7rem;
+   text-align:center ;
+   
+}
+.yellowSquare:focus{
+   
+   outline: none;
+   
+}
+.fa-angle-double-up{
+    color: #C4C4C4;
+}
+
+

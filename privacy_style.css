@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', Helvetica, Arial;
+}
+
+.container {
+    width: 1024px;
+    /* background-image: url("images/background-all.jpg"); */
+}
+
+.privacyTitle {
+    border-bottom: solid #212837;
+    width: 924px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.bodyWrap {
+    background-image: url("images/background-all.jpg");
+    padding-top: 28px;
+    height: 670px;
+}
+
+.mainTextPrivacy {
+    width: 850px;
+    margin: 20px auto 0;
+    text-align: justify;
+}
+
+.footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.mainTextPrivacy #pOne {
+    font-weight: bold;
+    color: #149767;
+}
+
+@media only screen and (max-width: 992px) {
+    .bodyWrap {
+        width: auto;
+        background-repeat: no-repeat;
+        background-color: #F2F2F2;
+        height: 100%;
+    }
+
+    .privacyTitle {
+        width: auto;
+    }
+
+    .mainTextPrivacy {
+        width: auto;
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+.container{
+    width: auto;
+}
+}

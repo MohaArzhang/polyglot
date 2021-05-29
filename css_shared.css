@@ -1,0 +1,54 @@
+/* NavBar Begin */
+.profile{
+    position: relative;
+    left: 3.7rem;
+   }
+ .logo{
+     width: 12.5rem;
+     margin-right: 1.7rem;
+ }
+ .bg-color{
+ background-color: #212837;
+ }
+ 
+ .nav-item a{
+     color: #FEB40A !important;
+ }
+ .nav-item a:hover{
+    color: #ffdc8a !important;
+}
+ .active1{
+     display: inline-block;
+     border-bottom: 1.5px solid #FEB40A;
+     padding-bottom: 0px;
+ }
+ .dropdown-menu .subProfile{
+     color:  #212837 !important;
+ }
+ .navbar-toggler-icon{
+     filter: invert(100);
+ }
+ @media only screen and (max-width:992px){
+    .active1{
+        display: inline-block;
+        border-bottom: 1.5px solid #FEB40A;
+        padding-bottom: 0px;
+    }
+    .profile{
+        left: 0rem;
+        margin-top: 10px;
+        left: 0rem;
+    }
+
+ }
+/* NavBar end */
+
+/* FOOTER */
+/* .footer {
+    margin-top: 5rem;
+    color: #555151;
+ }
+ .footer a{
+     margin-left: 0.4rem ;
+     margin-right: 0.4rem ;
+ } */

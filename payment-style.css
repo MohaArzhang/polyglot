@@ -1,0 +1,107 @@
+body{
+    font-family: 'Roboto', Helvetica, Arial;
+}
+
+.container{
+    width: 1024px;
+}
+
+.bodyWrap{
+    background-image: url("images/background-all.jpg");
+    padding-top: 28px;
+    height: 670px;
+}
+
+.paymentTitle{
+    border-bottom: solid #212837;
+    width: 924px;
+    margin: 0 auto;
+}
+
+.paymentTitle span{
+    font-size: 1.3rem;
+}
+
+.yourPlan{
+    text-align: center;
+    margin: 35px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.row{
+    justify-content: center;
+}
+
+.card{
+    margin: 0 10px;
+    box-shadow: gray 7px 7px 7px;
+}
+
+.card-title{
+    margin-top: -30px;
+}
+
+.card-body #number{
+    font-size: 3.8rem;
+    text-align: right;
+}
+
+.card-body span{
+    font-size: 1.4rem;
+}
+
+.card-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: -1.3rem;
+}
+
+.card-body #bul{
+    margin: 0 5px 0 0;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.btn{
+    margin-top: -3rem;
+    background-color: #149767;
+    outline: none;
+    border: none;
+}
+
+.paymentMethod{
+    display: flex;
+    justify-content: center;
+}
+
+.payImage{
+    height: 30px;
+    margin: 30px 10px 10px;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+/* MEDIA QUERY BEGINS */
+
+@media only screen and (max-width: 990px){
+    .card{
+        margin-bottom: 1rem;
+    }
+    .bodyWrap{
+        height: 100%;
+        background-repeat: no-repeat;
+        background-color: #F2F2F2;
+    }
+    .paymentTitle{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 577px){
+    .container{
+        width: auto;
+    }
+    }

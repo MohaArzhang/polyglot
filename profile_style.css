@@ -1,0 +1,258 @@
+body {
+    font-family: 'Roboto', Helvetica, Arial;
+}
+
+.container {
+    width: 1024px;
+}
+
+.leftCol {
+    width: 208px;
+    height: 608px;
+    background-color: #FEB40A;
+    margin: 0 50px 0 0;
+    text-align: center;
+}
+
+.titleAvatar {
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+
+#titleAvatar-2 {
+    display: none;
+}
+
+.allColumns {
+    /* width: 994px; */
+    background-image: url("images/background-all.jpg");
+}
+
+.bodyWrapProfile {
+    display: flex;
+    padding-top: 28px;
+    height: 670px;
+    width: 924px;
+    margin: 0 auto;
+}
+
+.avatarOne {
+    display: inline-block;
+    width: 150px;
+    border: solid black 4px;
+    border-radius: 50%;
+    margin: 29px 0 0 0;
+}
+
+.profileSetting {
+    border-bottom: solid 3px #212837;
+}
+
+.profileSetting span {
+    font-size: 1.3rem;
+}
+
+.twoParts {
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.profileSetting {
+    margin-bottom: 60px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.part-1 {
+    display: grid;
+    grid-template-rows: repeat(8, 40px);
+    width: 319px;
+    height: 446px;
+    background-color: white;
+    margin-right: 28px;
+}
+
+.editLink {
+    color: #149767;
+}
+
+.editLink:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.editLink:active {
+    color: rgb(103, 103, 248);
+}
+
+.part-1Text {
+    margin: 20px 0 0 20px;
+}
+
+.part-1Text-2 {
+    margin: 20px 0 0 20px;
+    display: flex;
+}
+
+.editLinkText {
+    display: flex;
+}
+
+.editSectionText {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.editSectionText-2 {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.part-2 {
+    display: grid;
+    /* place-content: center; */
+    grid-template-rows: repeat(8, 40px);
+    width: 319px;
+    height: 440px;
+    background-color: white;
+}
+
+.forUnderLine {
+    text-decoration: underline;
+}
+
+.Select {
+    height: 25px;
+    background-color: #f5dea8;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.saveButtonDiv {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.saveButtonDiv a {
+    background-color: #FEB40A;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.saveButtonDiv a:hover {
+    background-color: #149767;
+    color: white;
+}
+
+.saveButtonDiv a:active {
+    background-color: #8abeaa;
+    color: white;
+}
+
+.saveButtonDiv a:visited {
+    color: #212837;
+}
+
+.footer {
+    margin-top: -3rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .twoParts {
+        display: block;
+    }
+
+    .container {
+        height: 100% !important;
+    }
+
+    .allColumns {
+        height: 100%;
+        background-repeat: no-repeat;
+        background-color: #F2F2F2;
+    }
+
+    .rightCol {
+        height: 100%;
+    }
+
+    .bodyWrapProfile {
+        height: 100%;
+    }
+
+    .part-1 {
+        margin-bottom: 15px;
+    }
+
+    .leftCol {
+        height: auto;
+    }
+
+    .footer-copyright {
+        display: inline-block;
+    }
+
+    .footer {
+        text-align: right;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .avatarOne {
+        width: 70px;
+        margin: 10px;
+    }
+
+    .leftCol {
+        /* height: 90px; */
+        /* width: fit-content; */
+        /* text-align: left; */
+        /* padding-right: 15px; */
+        /* position: relative; */
+        /* left: 150px; */
+        margin: auto;
+    }
+
+    .titleAvatar {
+        display: none;
+    }
+
+    #titleAvatar-2 {
+        display: inline;
+    }
+
+    .bodyWrapProfile {
+        display: block;
+        width: auto;
+    }
+
+    .profileSetting {
+        width: auto;
+    }
+
+    .part-1, .part-2{
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-right: 0px;
+        padding-bottom: 15px;
+    }
+
+    .profileSetting{
+        text-align: center;
+        margin: 0 auto 10px;
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .container{
+        width: auto;
+    }
+    }

@@ -1,0 +1,201 @@
+body{
+    background-color: #F5F5F5;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    background-color: #F5F5F5;
+    background-image: url("images/background-all.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0px 0px;
+}
+
+h2{
+    color: #212837;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+h1{
+    margin-top: 35px;
+    line-height: 0.6em;
+    font-size: 6rem;
+    color:  #212837b2;
+}
+#collapseExample{
+    font-size: .8em;
+    position: absolute;
+}
+.carousel{
+    padding: 75px 9.8% 100px 9.8%;
+    height: 900px;
+}
+.carousel-control-prev, .carousel-control-next{
+    background-color: #212837;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.carousel-indicators{
+    background-color:  #212837a9;
+    padding: 15px 15px 5px 15px; 
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.navHeading{
+    align-items: center;
+}
+.warning{
+    display: inline-block;
+
+}
+.navHeading .btn{
+    background-color: red;
+    border: none;
+}
+.navHeading .btn:hover{
+    background-color: blue !important;
+    border: none;
+}
+.eventCard{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #21283756;
+    display: flex;
+    flex-direction: row;
+}
+.eventCardImg{
+    min-width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+.img1{
+    background-image: url("images/Place-Des-Arts.jpg");
+    background-size: 225%;
+    background-repeat: no-repeat;
+    background-position-x: 80% ;
+}
+.img2{
+    background-image: url("images/bland.jpg");
+    background-size: 225%;
+    background-repeat: no-repeat;
+    background-position-x: 80% ;
+}
+.img3{
+    background-image: url("images/building.jpg");
+    background-size: 225%;
+    background-repeat: no-repeat;
+    background-position-x: 80% ;
+}
+.cardContent{
+    height: 150px;
+    font-size: .9em;
+    width: 100%;
+}
+.attending{
+    display: inline-block; 
+}
+.attendingHeader{
+    float: right;
+    width: 95.93px;
+    display: block;
+    text-align: center;
+}
+
+.card-header{
+    padding: 0px;
+    margin: 0%;
+}
+
+.cardBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.needsMargin{
+    display: inline-block;
+    margin-bottom:6px;
+}
+.tab-content{
+    height: 700px;
+}
+.carousel-control-prev{
+    margin-left:30px
+}
+.carousel-control-next{
+    margin-right:30px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.carousel-control-prev-icon{
+    margin-right: 4px;
+    
+}
+.carousel-control-next-icon{
+    margin-left: 4px;
+}
+@media only screen and (max-width:576px){
+h3 {
+    font-size: .8em;
+    margin-bottom: 25px;
+}  
+.eventCardImg{
+    min-width: 75px;
+    height: 75px;
+}
+h2{
+    font-size: 1em;
+}
+.carousel-control-prev{
+    margin-left:0px;
+}
+.carousel-control-next{
+    margin-right:0px;
+}
+}
+@media only screen and (max-width:850px){
+    .carousel-control-prev{
+        margin-left:0px
+    }
+    .carousel-control-next{
+        margin-right:0px;
+    }
+}
+.bunchaStuff{
+    margin-top: 10px;
+    background-color: white;
+    padding:10px 0px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:100px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+}
+.bunchaStuff .btn{
+    margin-top: 49px;
+    margin-left: 10px;
+    display: inline-block;
+    height: 40px;
+}
+h4{
+    color:  #212837;
+}

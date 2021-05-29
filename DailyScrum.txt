@@ -1,0 +1,157 @@
+
+Date : 2020/10/28
+
+1.Done or not done since last scrum
+Alex:
+	-Review Pages*done
+	-Finish Events page *done
+Ali:
+	-Make pages responsive *done
+        -Update pages *done
+        -Update trello page *done
+Moha:
+	-Make responsive*done
+	-Modify Pages *done
+	-Update trello page *done
+
+Collective:
+	
+2.To do until next scrum
+
+Alex:
+
+Ali:
+
+Moha:
+
+
+Collective:
+
+	-Meetup at 8h30 for rehearsal.
+
+
+Date : 2020/10/27
+
+1.Done or not done since last scrum
+Alex:
+	-Update scrum(include all past scrums)* daily scrum updated, but have not included all past scrums yet.
+	-Start events page* done
+	-Make pages responsive* not done
+	-Finish Events page* not done
+        -Update trello page *done
+Ali:
+        -Add more detail to Daily Test page(Ali) not done*
+        -Update trello page *done
+        -fix footer *done
+	-Make pages responsive *done
+Moha:
+        -Update trello page *done
+	-Modify other pages *done
+	-Make responsive *needs more work
+
+Collective:
+	
+
+2.To do until next scrum
+
+Alex:
+	-Review Pages
+	-Finish Events page
+Ali:
+	-Make pages responsive
+        -Update pages
+        -Update trello page
+Moha:
+	-Make responsive
+	-Modify Pages
+	-Update trello page
+
+Collective:
+	-Fix Navbar(Profile dropdown background)
+	-Meetup at 3pm
+
+Date : 2020/10/26
+
+1.Done or not done since last scrum
+Alex:
+        -Update trello page *done
+        -Make HTML and CSS About us *done
+Ali:
+        -Add more detail to Daily Test page(Ali) not done*
+        -Update trello page *done
+        -fix footer*not done
+Moha:
+        -Update trello page *done
+	-Modify other pages *maybe
+	-Make responsive *done
+	-fix footer *done
+
+Collective:
+	-Meet up sunday at 11am. *done
+
+2.To do until next scrum
+
+Alex:
+	-Make pages responsive
+	-Start events page
+	-Update trello page
+	-Update scrum(include all past scrums)
+Ali:
+	-Make pages responsive
+        -fix footer
+        -Update pages
+        -Update trello page
+Moha:
+	-Make responsive
+	-fix footer
+	-Modify Pages
+	-Update trello page
+
+Collective:
+	-
+
+
+3.Need assistance / figure things out
+
+
+Date : 2020/10/23
+
+1.Done or not done since last scrum
+Alex:
+        -Update trello page *done
+        -Make HTML and CSS About us *Partialy done
+Ali:
+        -Add more detail to Daily Test page(Ali) not done*
+        -Dictionary(HTML and CSS) done
+        -footer done
+        -Update trello page *done
+Moha:
+        -Discussion(HTML and CSS)*done
+        -Update trello page *done
+	-Modify Footer
+	-Modify other pages
+
+2.To do until next scrum
+Alex:
+	-Make pages responsive
+	-Get farmilar with Bootstrap grids
+	-Start events page
+	-Update trello page
+Ali:
+	-Make pages responsive
+        -fix footer
+        -Update pages
+        -Update trello page
+Moha:
+	-Make responsive
+	-fix footer
+	-Modify Pages
+	-Update trello page
+
+Collective:
+	-Meet up sunday at 11am.
+
+
+3.Need assistance / figure things out
+
+
